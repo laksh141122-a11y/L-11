@@ -1,0 +1,44 @@
+.static{
+    position:static;
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    border:2px solid blue;
+}
+
+.sticky {
+    position: sticky;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    top: 1px;
+    left: 20px;
+}
+.relative {
+    position: relative;
+    background-color: orange;
+    width: 400px;
+    height: 100px;
+    border: 2px solid blue;
+    left: 100px;
+}
+.absolute {
+    position: absolute;
+    background-color: orchid;
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    top: 0px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    background-color: orchid;
+    width: 200px;
+    height: 50px;
+    border: 2px solid blue;
+    top: 0px;
+    right: 20px;
+}
